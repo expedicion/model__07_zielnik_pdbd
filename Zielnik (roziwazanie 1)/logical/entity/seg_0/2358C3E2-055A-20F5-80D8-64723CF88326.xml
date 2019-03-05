@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2358C3E2-055A-20F5-80D8-64723CF88326" name="GATUNEK_ODMIANA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:31:59 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_GATUNKU" id="5E2F144C-1679-5046-1636-1C4063A7BD11">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:33:12 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GATUNEK" id="B92944D7-5481-3F81-55E3-96E7A5909042">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:34:26 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODMIANA" id="454BACFC-1594-C8BA-E63A-F34AF991095D">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:34:40 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="2418EAC8-843D-1D71-F5F1-43A9A46950BA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:34:51 UTC</createdTime>
+<generatorID>3B581666-45BF-056A-3941-5AA4F63052EE</generatorID>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<referedAttribute>7BF21DF5-9056-F90C-97B9-0FBC48A0E152</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3949616B-EE8D-3344-00CE-FAB3494A5E99" name="GATUNEK_ODMIANA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:33:25 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E2F144C-1679-5046-1636-1C4063A7BD11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

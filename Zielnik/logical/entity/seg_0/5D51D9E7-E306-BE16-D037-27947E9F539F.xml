@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D51D9E7-E306-BE16-D037-27947E9F539F" name="ENCJA">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-05 21:51:31 UTC</createdTime>
+<ownerDesignName>Zielnik</ownerDesignName>
+<engineerTo>
+<item key="EF68B2ED-046A-384A-D9E4-9712C271E4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

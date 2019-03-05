@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="CE5A408A-EFEA-245D-8A05-ABF44F5BDF61">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:32:53 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<sourcePk>3949616B-EE8D-3344-00CE-FAB3494A5E99</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2358C3E2-055A-20F5-80D8-64723CF88326</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95CAF5A3-E9B8-F22E-60A5-D00A85923DB5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

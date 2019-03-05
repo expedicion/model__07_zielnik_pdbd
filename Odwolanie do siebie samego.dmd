@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Odwolanie do siebie samego" id="7D677A51-648C-BB7B-8809-458B59859204" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:10:29 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7D677A51-648C-BB7B-8809-458B59859204</designId>
+</OSDM_Design>

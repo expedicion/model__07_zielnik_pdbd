@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Zielnik" id="A88787CE-2DFF-41EF-7E16-B5A4B0E24B2A" version="3.5">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-05 21:51:01 UTC</createdTime>
+<ownerDesignName>Zielnik</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A88787CE-2DFF-41EF-7E16-B5A4B0E24B2A</designId>
+</OSDM_Design>

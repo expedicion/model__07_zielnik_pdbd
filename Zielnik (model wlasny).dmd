@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Zielnik (model wlasny)" id="3238B0F1-742E-E24C-6C8A-ECF73CB313AD" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:22:37 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3238B0F1-742E-E24C-6C8A-ECF73CB313AD</designId>
+</OSDM_Design>

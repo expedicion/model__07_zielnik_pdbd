@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68FA6F38-A071-DAEE-03F6-CD154F03BF78" name="ROSLINA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:56:15 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ROSLINY" id="BE9EF622-5DBF-E26F-35F3-12F2C98D0EB2">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:16 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GROMADA" id="6102E31C-85BC-CBBF-B76F-0CFF6FE36769">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:27 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLASA" id="BAE835E0-2377-4FC2-E548-235203185A38">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:40 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RZAD" id="622BDB40-4FEA-1E01-AE22-5E9C8B8B362F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:48 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RODZINA" id="FCFB69A0-E789-7538-F34C-C1EB4F1BF9C1">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:55 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RODZAJ" id="D28C641F-6C25-F48F-AADA-D92F9B11A68D">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:01:07 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6056845B-F51E-DC4E-B849-4B7319DD817A" name="ROSLINA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:23 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE9EF622-5DBF-E26F-35F3-12F2C98D0EB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95CAF5A3-E9B8-F22E-60A5-D00A85923DB5" name="WYSTEPOWANIE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:32:16 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_GATUNKU" id="7886F5C8-84E4-D57B-2286-B63573654BF4">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:33:28 UTC</createdTime>
+<generatorID>CE5A408A-EFEA-245D-8A05-ABF44F5BDF61</generatorID>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<referedAttribute>5E2F144C-1679-5046-1636-1C4063A7BD11</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OBSZARU" id="5B8B2703-971F-68A1-6E52-88E6E6E71944">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:33:49 UTC</createdTime>
+<generatorID>61E0B9C8-E824-B6C8-674B-67C15BAE1130</generatorID>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<referedAttribute>5F42A2F9-5F13-29F7-A94B-AD0C0CD22181</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6B2F5EE-2791-7C64-5422-BE944B7AA754" name="WYSTEPOWANIE PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:33:25 UTC</createdTime>
+<ownerDesignName>Zielnik (roziwazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7886F5C8-84E4-D57B-2286-B63573654BF4</attributeRef>
+<attributeRef>5B8B2703-971F-68A1-6E52-88E6E6E71944</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

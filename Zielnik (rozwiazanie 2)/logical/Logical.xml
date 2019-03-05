@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0D59AA7E-5E48-DD99-B41B-88BEE3244732" mainViewID="30B84939-2E3B-F573-57EB-B7AFC4453063">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:22:17 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

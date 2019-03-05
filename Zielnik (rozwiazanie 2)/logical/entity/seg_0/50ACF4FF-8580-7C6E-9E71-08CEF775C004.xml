@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50ACF4FF-8580-7C6E-9E71-08CEF775C004" name="SYSTEMATYKA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:28:15 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA" id="7BF21DF5-9056-F90C-97B9-0FBC48A0E152">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:28:23 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POZIOM" id="5339D03D-25F7-3577-2A1F-801D86ABCBBB">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:28:31 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA1" id="77BEE817-586A-F669-AB53-87C0FF1BFF16">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:30:27 UTC</createdTime>
+<generatorID>E07D2B20-1B43-FC18-89BC-659EA153CBD2</generatorID>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7BF21DF5-9056-F90C-97B9-0FBC48A0E152</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8F7125E-D6E2-2238-E71F-789643B3E710" name="SYSTEMATYKA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:28:29 UTC</createdTime>
+<ownerDesignName>Zielnik (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="D269D651-329B-4642-3D93-268897D3E552" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BF21DF5-9056-F90C-97B9-0FBC48A0E152</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

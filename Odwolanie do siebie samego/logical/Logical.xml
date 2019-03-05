@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FA4F25B7-B54C-5CD2-5451-1A78DFF57B2A" mainViewID="306F88E4-57FA-E683-7447-AA84CC92F610">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:10:29 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

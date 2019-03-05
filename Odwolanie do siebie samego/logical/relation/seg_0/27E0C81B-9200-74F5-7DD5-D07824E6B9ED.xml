@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="27E0C81B-9200-74F5-7DD5-D07824E6B9ED">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:44 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<sourcePk>1167EC12-FE68-0CA1-C02B-9E4702DCAFD5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A63929BD-309E-073F-5E7F-018125F54D63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04103F15-3642-EEE0-4010-2435FC4891E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

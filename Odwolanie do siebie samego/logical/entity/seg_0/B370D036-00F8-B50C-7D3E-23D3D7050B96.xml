@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B370D036-00F8-B50C-7D3E-23D3D7050B96" name="SYSTEMATYKA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:19:37 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA" id="24F54048-3590-074A-64C6-A04819E294E3">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:19:49 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POZIOM" id="31C8E90A-CC5F-ABA0-B7D8-32584CD7378A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:20:00 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA1" id="A9A2D5BF-D400-B8E4-9E8E-1D6F54F55F4F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:20:18 UTC</createdTime>
+<generatorID>D48D6E7A-610D-698D-F215-9D6DAF865F47</generatorID>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>24F54048-3590-074A-64C6-A04819E294E3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39CE8B5E-92B9-CE8F-E680-0CEC9A12C685" name="SYSTEMATYKA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:19:57 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24F54048-3590-074A-64C6-A04819E294E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

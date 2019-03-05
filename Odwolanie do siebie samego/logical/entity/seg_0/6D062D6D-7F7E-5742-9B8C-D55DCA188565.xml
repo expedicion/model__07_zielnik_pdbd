@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D062D6D-7F7E-5742-9B8C-D55DCA188565" name="RZAD">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:11:16 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA" id="F208965E-E758-D1DD-9FB7-EE0AADC41692">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:18:47 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA1" id="66ECB65B-1C36-E388-B643-2F02C0B9C876">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:19:18 UTC</createdTime>
+<generatorID>4D16FA3C-9EA3-1B55-94D0-81520786D632</generatorID>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<referedAttribute>FA0AFEE8-5766-208D-12A4-AD19DDFC2F07</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B53EE565-A898-4F0F-BBAE-12728B50AEA0" name="RZAD PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:18:59 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F208965E-E758-D1DD-9FB7-EE0AADC41692</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

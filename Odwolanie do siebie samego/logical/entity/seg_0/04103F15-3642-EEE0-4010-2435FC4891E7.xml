@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04103F15-3642-EEE0-4010-2435FC4891E7" name="ODMIANA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:23:42 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KLASA" id="12BB420C-D95A-527B-AD5F-0E4DD0288D57">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:23:56 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RZAD" id="AC598F5C-C1D0-C2B4-D6BC-EFBC8CDEC68A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:02 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RODZAJ" id="AC812271-C143-3EFE-C047-07C30526C3E3">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:14 UTC</createdTime>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="34F2617C-9809-2FD4-0471-FBA9305F6C59">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:33 UTC</createdTime>
+<generatorID>F3E27F7F-EE20-AD0A-571A-A0B082185CAB</generatorID>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<referedAttribute>FA0AFEE8-5766-208D-12A4-AD19DDFC2F07</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA1" id="F0233B72-EF78-77E4-E6CF-65FA87A93D0E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:39 UTC</createdTime>
+<generatorID>70DE3614-DF6B-1646-E208-1B08173578D6</generatorID>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<referedAttribute>F208965E-E758-D1DD-9FB7-EE0AADC41692</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA2" id="1A8B713B-F575-C415-D62E-2246F459B708">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:24:44 UTC</createdTime>
+<generatorID>27E0C81B-9200-74F5-7DD5-D07824E6B9ED</generatorID>
+<ownerDesignName>Odwolanie do siebie samego</ownerDesignName>
+<engineerTo>
+<item key="3A4DCB47-FEDD-4E19-4EDB-28024354357D" value="true"/>
+</engineerTo>
+<referedAttribute>41A888FE-63C5-8339-7936-ABA097D090E7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

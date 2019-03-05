@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4F8BCD93-0E70-B053-DAF8-C279B9A9A8EF" name="OBSZAR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B53D15BC-E5A9-4260-1EF7-AB5D993C305D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="68FA6F38-A071-DAEE-03F6-CD154F03BF78" name="ROSLINA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B53D15BC-E5A9-4260-1EF7-AB5D993C305D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="22941ED2-331C-EE9C-C504-189A9B61FA2F" name="ZBIOR_ZIELNIKA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B53D15BC-E5A9-4260-1EF7-AB5D993C305D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="809F397E-6367-31E0-4070-581E50237BEC" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B53D15BC-E5A9-4260-1EF7-AB5D993C305D" propertySourceId="4F8BCD93-0E70-B053-DAF8-C279B9A9A8EF" propertyTargetId="22941ED2-331C-EE9C-C504-189A9B61FA2F"/>
+   <object objectType="Relation" objectID="0182CB75-4D3C-4429-B148-62563D3C3488" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B53D15BC-E5A9-4260-1EF7-AB5D993C305D" propertySourceId="68FA6F38-A071-DAEE-03F6-CD154F03BF78" propertyTargetId="22941ED2-331C-EE9C-C504-189A9B61FA2F"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

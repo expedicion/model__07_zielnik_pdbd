@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22941ED2-331C-EE9C-C504-189A9B61FA2F" name="ZBIOR_ZIELNIKA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:58:45 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OBSZARU" id="9EFEC22A-BE12-CCDA-D71A-F21A835619D3">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:59:14 UTC</createdTime>
+<generatorID>809F397E-6367-31E0-4070-581E50237BEC</generatorID>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<referedAttribute>13C28126-214B-F101-90C7-E4ED2EB5DE08</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ROSLINY" id="823D8F6B-F0BC-A602-40E6-F3F21EC74EA7">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:00:26 UTC</createdTime>
+<generatorID>0182CB75-4D3C-4429-B148-62563D3C3488</generatorID>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<referedAttribute>BE9EF622-5DBF-E26F-35F3-12F2C98D0EB2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_GABLOTY" id="D6048598-1F9B-E7A7-4C30-0BF6C3CE6A35">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:02:20 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="DA48A570-6087-41F6-2DB8-DD4C06AFE0D6">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:03:02 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZDJECIE_Z_OPISEM" id="827B79F6-D066-B410-6122-9250FCF9262E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 11:03:20 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6F835F8-784C-A445-73DD-7534EBC08E42" name="ZBIOR_ZIELNIKA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:59:14 UTC</createdTime>
+<ownerDesignName>Zielnik (model wlasny)</ownerDesignName>
+<engineerTo>
+<item key="EF8C4A1B-D7B3-70F0-56C0-330C30FA7C1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EFEC22A-BE12-CCDA-D71A-F21A835619D3</attributeRef>
+<attributeRef>823D8F6B-F0BC-A602-40E6-F3F21EC74EA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
